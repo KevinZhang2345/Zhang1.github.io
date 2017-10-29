@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link  href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used accross all the pages of our website -->
+
+    <header>
+      <h1>CARNET汽车售后服务平台</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">主页</a></li>
+        <li><a href="#">维修</a></li>
+        <li><a href="#">保养</a></li>
+        <li><a href="#">配件</a></li>
+        <li><a href="#">联系工程人员</a></li>
+      </ul>
+
+       <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+       <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+     </nav>
+ 
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <article>
+        <img src="images/car.jpg" alt="My test image">
+        <button>Change user</button>
+        <script src="scripts/main1.js"></script>
+        <h2>维修</h2>
+
+        <p>提供专业维修. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <h2>保养</h2>
+
+        <p>提供专业保养. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+
+        <h2>配件</h2>
+
+        <p>提供配件. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h4>相关文章/友商链接</h4>
+
+        <ul>
+          <li>康众汽配<a href="#">I really like it</a></li>
+          <li>米其林轮胎<a href="#">Oh I do like to be beside the sea</a></li>
+          <li>博世汽配<a href="#">Although in the North of England</a></li>
+          <li>大众<a href="#">It never stops raining</a></li>
+          <li>丰田<a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2017 by KevinZhang. All rights reversed.</p>
+    </footer>
+
+  </body>
+</html>
